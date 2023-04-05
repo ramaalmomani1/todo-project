@@ -1,0 +1,71 @@
+header  {
+    
+background-color: cornsilk;
+padding-left: 50px;
+padding-right: 100px;
+
+}
+
+
+header div h1 {
+font-size:60px;
+text-align:center ;
+margin-top: 20px;
+
+}
+
+
+header nav {
+    text-align: center; 
+    
+}
+header nav a {
+    margin: 50px;
+    text-decoration: none; 
+}
+
+
+
+
+main table{
+    text-align:center ;
+    margin-left:300px;
+
+    width: 50%;
+    border: 1px solid black;
+}
+table td{
+    padding: 15px;
+    background-color:darkcyan;
+}
+
+
+
+footer .hh {
+    margin: 100px;
+}
+
+
+
+.copy {
+    background-color:cornsilk;
+    padding-bottom: 50px;
+    margin-top: 100px;
+   
+    }
+
+    .one  {
+        text-align: center;
+        font-size: larger; 
+
+    }
+
+   
+
+   .two {
+    text-align: center;
+    font-size: larger; 
+        margin-top: 100px;
+    }
+
+
