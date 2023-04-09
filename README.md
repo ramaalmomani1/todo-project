@@ -1,3 +1,3 @@
 # todo-project
 
-![ToDO website wireframe](./WF.png)
+![ToDO website wireframe](/todo-project/img/WF.png)
