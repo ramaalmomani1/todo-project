@@ -4,65 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToDo</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>TODO webpage</title>
+    <link rel="stylesheet" href="/css/reset.css">
+   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+
     <header>
-     <div>
-      <img src="logo.png" alt="TODo logo" />
-       <h1>ToDo</h1>
-       
-
-       </div>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-       
-
-      </nav>
-     
-    </header> 
+        <div>
+        <img src="https://cdn.dribbble.com/users/150828/screenshots/2873686/todo_app_icon.jpg" alt="">
+        <h1>TODO</h1>
+        </div>    
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="/about.html">About</a>
+        </nav>
+    </header>
     <main>
-        <h3> Home</h3>
         <table>
-            <tr> 
-              <th>Tasks</th>
-              <th><input  type="checkbox" name=""></th>
-            </tr>
-            <tr>
-             <td>Task 1</td>
-            <td><input  type="checkbox" name="task 1"></td>
-              </tr>
-              <tr>
-                <td>Task 2</td>
-                <td><input  type="checkbox" name="task 2"></td>
-              </tr>
-              <tr>
-                <td>Task 3</td>
-                <td><input  type="checkbox" name="task 3"></td>
-              </tr>
-              <tr>
-                <td>Task 4</td>
-                <td><input  type="checkbox" name="task 4"></td>
-              </tr>
-
-            
+            <thead>
+                 <th class="first">Tasks</th>
+                 <th class="first">Status</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Task 1</td>
+                    <td><input type="checkbox"></td>
+                 </tr>
+                 <tr>
+                    <td>Task 2</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Task 3</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+            </tbody>
         </table>
-    </main>
 
-    <footr>
-      <div class="r">
-      <h3 class="hh">Contact Us</h3>
-       <div class="u"></div>
-         <img src="facebook.png" alt="" /> <a href="http://WWW.facebook.com">Facebook</a>
-         <img src="tw.png" alt="" /> <a href="https://www.twitter.com/">Twitter</a>
-         <img src="youtube.png" alt="" /> <a href="https://www.youtub.com/">Youtube</a>
-         <img src="insta.png" alt="" /> <a href="https://www.instagram.com/">Instagram</a>
+    </main>
+    <footer class="home"> All rights reserved &copy;</footer>
     
-        </div>
-      <p class="copy"> All right resaved &copy; </p>
-    </div>
-    </footr>
+    <script src="/app.js"></script>
 </body>
 </html>

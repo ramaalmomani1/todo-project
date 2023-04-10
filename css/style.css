@@ -1,71 +1,124 @@
-header  {
+body{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap:150px;
+  }
+  header{
+    width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:50px; 
+  }
+  header img{
+    width: 200px;
+  }
+   header nav a{
+    text-decoration: none;
+    color: #4D455D;
+    padding: 5px 10px;
+   }
+  
+   header h1 {
+    font-size: 50px;
+    font-weight: 900;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+   }
+  table {
+      width: 75%;
+      margin-left:150px ;
+    }
     
-background-color: cornsilk;
-padding-left: 50px;
-padding-right: 100px;
-
-}
-
-
-header div h1 {
-font-size:60px;
-text-align:center ;
-margin-top: 20px;
-
-}
-
-
-header nav {
-    text-align: center; 
+  th, td {
+      border-bottom: 1px solid #ddd;
+      height: 30px;
+      text-align: center;
+      padding-top:20px;
     
-}
-header nav a {
-    margin: 50px;
-    text-decoration: none; 
-}
-
-
-
-
-main table{
-    text-align:center ;
-    margin-left:300px;
-
-    width: 50%;
-    border: 1px solid black;
-}
-table td{
-    padding: 15px;
-    background-color:darkcyan;
-}
-
-
-
-footer .hh {
-    margin: 100px;
-}
-
-
-
-.copy {
-    background-color:cornsilk;
-    padding-bottom: 50px;
-    margin-top: 100px;
-   
     }
-
-    .one  {
-        text-align: center;
-        font-size: larger; 
-
+    th {
+      background-color: #E8A0BF;
+      color: white;
     }
-
-   
-
-   .two {
-    text-align: center;
-    font-size: larger; 
-        margin-top: 100px;
+    
+  
+    .about  {
+      display: flex;
+      gap: 50px;
     }
-
-
+    .just{
+      display: flex;
+      gap: 200px;
+  
+    }
+  
+    .about img{
+      border-radius: 50%;
+      width: 300px;
+    }
+    .about-me{
+      display: flex;
+      gap:20px;
+      flex-direction: column;
+      justify-content: center;
+      
+      /* align-items: center; */
+    }
+    .about-me h3 {
+        font-size: 40px;
+      font-weight: 700;
+    }
+    .about p{
+      display: flex;
+      gap: 20px;
+      line-height: 1.5;
+      font-size: 20px;
+    }
+  
+    .user-contact{
+      width: 100%;
+      display: flex;
+      gap:20px;
+      flex-direction: column;
+      justify-content: center;
+  
+     
+    }
+  
+    .user-contact h3{
+      font-size: 30px;
+      font-weight: 700;
+    }
+    .contact-form{
+      display: flex;
+      gap: 20px;
+      flex-direction: column;
+     
+    } 
+    .form-control{
+      
+    }
+    .contact-form input{
+      padding: 10px 10px;
+    }
+    .home {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      padding: 20PX;
+      text-transform: capitalize 
+    }
+    .about{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      padding: 20PX;
+      text-transform: capitalize
+      
+    } 

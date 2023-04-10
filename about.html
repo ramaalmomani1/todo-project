@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <header>
      <div>
-      <img src="logo.png" alt="TODo logo" />
-       <h1>ToDo</h1>
+      <img src="https://cdn.dribbble.com/users/150828/screenshots/2873686/todo_app_icon.jpg" alt="TODo logo" />
+       <h1>TODO</h1>
        
 
        </div>
       <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About</a>
         
      </nav>
      </div>
@@ -26,48 +27,39 @@
 
 
     <main>
-        <section class="one">
-            <h3>About me </h3>
+        <section class="about">
+        <img src="https://th.bing.com/th/id/OIP.MbpIdUPilzDMLKP0YRwdjAHaHa?pid=ImgDet&rs=1" alt="">
+        <div class="just">
+        <section class="about-me">
+        <h3>About me</h3>
             <p>
-             I'm Rama Almomani, 24 years old.
-             I finished my bachelors in biomedical engineering in 2022 
-             from the Jordan University of Science and Technology. 
-           </p>
+                I'm Rama Almomani, 24 years old.
+                I finished my bachelors in biomedical engineering in 2022 
+                from the Jordan University of Science and Technology. 
+            </p>
         </section>
-         
-
-        <section class="two"> 
-            <h4>User Contact Information</h4>
-        
-                <lable for="">Name:</lable>
-                <input type="text"/>
-                <label for="email"> Your email:</label>
-                <input type="email" id="email" name="email">
-             <br/><br><br><br>
-             <lable for="">message:</lable>
-                <input type="text"/>
-                <button> submit </button>
-           
-        </section>
-       
+        <section class="user-contact">
+            <h3>User Information</h3>
+            <form class="contact-form" action="">
+                <div class="form-control">
+                    <lable>Name</lable>
+                    <input type="text" class="form-input">
+                </div>
+                <div class="form-control">
+                    <lable>Emali</lable>
+                    <input type="email" class="form-input">
+                </div>
+                <div class="form-control">
+                    <lable>Massage</lable>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <div class="submit-butoon"><button>Submit</button></div>
+                </div>
+            </form>
+        </div>
+        </section>  
     </main>
-
-
-
-
-
-    <footr>
-        <div class="r">
-        <h3 class="hh">Contact Us</h3>
-         <div class="u"></div>
-           <img src="facebook.png" alt="" /> <a href="http://WWW.facebook.com">Facebook</a>
-           <img src="tw.png" alt="" /> <a href="https://www.twitter.com/">Twitter</a>
-           <img src="youtube.png" alt="" /> <a href="https://www.youtub.com/">Youtube</a>
-           <img src="insta.png" alt="" /> <a href="https://www.instagram.com/">Instagram</a>
-      
-          </div>
-        <p class="copy"> All right resaved &copy; </p>
-    </div>
+    <footr class="about">
+        All right resaved &copy;
     </footr>
 </body>
 </html>
